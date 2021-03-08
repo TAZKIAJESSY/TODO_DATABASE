@@ -8,10 +8,14 @@ module.exports = {
         {
           task: "cleaning",
           deadline: "today",
+          createdAt: new Date(),
+          updatedAt: new Date(),
         },
         {
           task: "software update",
           deadline: "tomorrow",
+          createdAt: new Date(),
+          updatedAt: new Date(),
         },
       ],
       {}
