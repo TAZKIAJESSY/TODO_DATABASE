@@ -6,16 +6,18 @@ module.exports = {
       "todoitems",
       [
         {
-          task: "cleaning",
+          task: " Leo's cleaning",
           deadline: "today",
           important: true,
+          todolistId: 1,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
-          task: "software update",
+          task: "Dan's software update",
           deadline: "tomorrow",
           important: false,
+          todolistId: 2,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
